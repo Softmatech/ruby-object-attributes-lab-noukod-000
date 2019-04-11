@@ -22,11 +22,11 @@ end
 class Person
 
   def name=(input_name)
-      @personName_ = input_name
+      @name = input_name
   end
 
   def name
-      @personName_
+      @name
   end
 
   def job=(job_name)
