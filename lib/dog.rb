@@ -17,3 +17,16 @@ class Dog
   end
 
 end
+
+
+class Person
+
+  def name=(input_name)
+      @personName_ = input_name
+  end
+
+  def name
+      @personName_
+  end
+
+end
