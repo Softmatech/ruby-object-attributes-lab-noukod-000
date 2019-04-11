@@ -34,7 +34,7 @@ class Person
   end
 
   def job
-    @job_
+    @job
   end
 
 end
