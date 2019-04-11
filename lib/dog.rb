@@ -29,4 +29,12 @@ class Person
       @personName_
   end
 
+  def job=(job_name)
+    @job_ = job_name
+  end
+
+  def job
+    @job_
+  end
+
 end
